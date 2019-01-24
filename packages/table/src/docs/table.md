@@ -8,10 +8,17 @@ A highly interactive React `Table` component.
 </div>
 
 Make sure to review the [getting started docs for installation info](#blueprint/getting-started).
-Do not forget to include `blueprint-table.css` on your page.
+
 
 ```sh
 npm install --save @blueprintjs/table
+```
+
+Do not forget to include **CSS file** on your page.
+
+```html
+<!-- in index.html, or however you manage your CSS files -->
+<link href="path/to/node_modules/@blueprintjs/table/lib/css/table.css" rel="stylesheet" />
 ```
 
 ### Features
